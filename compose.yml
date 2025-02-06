@@ -1,0 +1,10 @@
+services:
+    db:
+      image: daalpralumnatflorida/sqlpinacoteca:v1
+      container_name: contenedorMiCine
+      ports:
+        - "3306:3306"
+  
+    
+  
+  
