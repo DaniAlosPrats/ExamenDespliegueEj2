@@ -28,8 +28,8 @@ jobs:
           echo "Listing files in the root directory:"
           ls -la
 
-          echo "Listing files in the test directory:"
-          ls -la test  # Cambio a 'test' en lugar de 'tests'
+          
+          
 
       - name: Check if PHPUnit is installed
         run: |
